@@ -1,0 +1,34 @@
+div h1::after{
+    content: " of : grid";
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+.div2,.div3,.div4,.newdivv{
+    border: 3px solid black;
+    background-color: aqua;
+    margin: 3px;
+    padding: 14px 16px;
+}
+#seconddiv,#anotherdivv,#imagediv{
+    border: 3px solid black;
+    background-color: aqua;
+    margin: 3px;
+    padding: 14px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    /* grid-template-columns: 400px;
+    grid-template-rows: 100px; */
+
+    overflow: auto;
+    
+}
+img{
+    border: 3px solid black;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+
+}

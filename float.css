@@ -1,0 +1,38 @@
+#newdiv{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 14px 16px;
+
+}
+#newdiv h1::after{
+    content: " of : float";
+}
+div{
+    border: 3px solid black;
+    background-color: aqua;
+    margin: 3px;
+    margin-right: 0;
+    padding: 14px 16px;
+    float:left;
+}
+img{
+    border: 3px solid black;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    float: right;
+}
+div #imagedi{
+    float: left;  
+}
+p{
+    border: 3px solid black;
+    padding: 5px;
+}
+#anotherdivv p{
+    float: right;
+    width: 300px;
+    height: auto;
+    border: 3px solid black;
+}

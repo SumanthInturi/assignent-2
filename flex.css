@@ -1,0 +1,26 @@
+.anotherdiv{
+    display: flex;
+}
+.anotherdiv h1{
+    text-align: center;
+    width: 100%;
+}
+.anotherdiv h1::after{
+   content: " of : flex";
+}
+div{
+    border: 3px solid black;
+    background-color: aqua;
+    margin: 3px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img{
+    border: 3px solid black;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    
+}
