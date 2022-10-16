@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(225, 255, 177);
+}
 #newdiv{
     text-align: center;
     width: 100%;
@@ -9,15 +12,16 @@
     content: " of : float";
 }
 div{
-    border: 3px solid black;
-    background-color: aqua;
-    margin: 3px;
+    border-radius: 8px;
+    background-color:#B6E388    ;
+    margin: 20px;
     margin-right: 0;
     padding: 14px 16px;
     float:left;
+    width: 100%;
 }
 img{
-    border: 3px solid black;
+   border-radius: 8px;
     width: 50%;
     height: 50vh;
     margin: auto;
@@ -27,12 +31,14 @@ div #imagedi{
     float: left;  
 }
 p{
-    border: 3px solid black;
+    border-radius: 8px;
+    background-color: #FCFFB2;
     padding: 5px;
+    margin: 10px;
 }
 #anotherdivv p{
     float: right;
     width: 300px;
     height: auto;
-    border: 3px solid black;
+    border-radius: 8px;
 }

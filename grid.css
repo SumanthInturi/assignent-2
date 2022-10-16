@@ -1,3 +1,6 @@
+body{
+    background-color: #FF731D;
+}
 div h1::after{
     content: " of : grid";
 }
@@ -6,15 +9,15 @@ h1{
     text-align: center;
 }
 .div2,.div3,.div4,.newdivv{
-    border: 3px solid black;
-    background-color: aqua;
-    margin: 3px;
+    border-radius: 8px;
+    background-color:#FFF7E9;
+    margin: 20px;
     padding: 14px 16px;
 }
 #seconddiv,#anotherdivv,#imagediv{
-    border: 3px solid black;
-    background-color: aqua;
-    margin: 3px;
+    border-radius: 8px;
+    background-color:#5F9DF7;
+    margin: 20px;
     padding: 14px 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,7 +29,7 @@ h1{
     
 }
 img{
-    border: 3px solid black;
+   border-radius: 8px;
     width: 50%;
     height: 50vh;
     margin: auto;
