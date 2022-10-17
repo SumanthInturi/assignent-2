@@ -1,24 +1,37 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(225, 255, 177);
+    background-image: url("/bg2.jpg");
+    margin: 0px;
 }
+
 #newdiv{
     text-align: center;
     width: 100%;
     margin: 0;
     padding: 14px 16px;
+    position: fixed;
+    background-color: #264653;
+    color: wheat;
 
 }
 #newdiv h1::after{
-    content: " of : float";
+    content: " of : Float";
 }
 div{
     border-radius: 8px;
-    background-color:#B6E388    ;
-    margin: 20px;
+    background-color:#2a9d8f;
+    margin-top: 10px;
+    margin-bottom: 20px;
     margin-right: 0;
     padding: 14px 16px;
     float:left;
     width: 100%;
+}
+#seconddiv{
+    margin-top: 120px;
 }
 img{
    border-radius: 8px;
@@ -32,7 +45,7 @@ div #imagedi{
 }
 p{
     border-radius: 8px;
-    background-color: #FCFFB2;
+    background-color: #e9c46a;
     padding: 5px;
     margin: 10px;
 }
@@ -41,4 +54,10 @@ p{
     width: 300px;
     height: auto;
     border-radius: 8px;
+}
+.footer{
+    background-color: #e76f51;
+    clear: both;
+    height: 60px;
+    line-height: 60px;
 }

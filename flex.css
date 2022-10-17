@@ -1,9 +1,10 @@
 body{
-    background-color: #FAF7F0;
+    background-image: url("/bg2.jpg");
+    margin: 0px;
 }
 
 #newdiv h1::after{
-    content: " of : flex";
+    content: " of : Flex";
 }
 .anotherdiv{
     display: flex;
@@ -12,12 +13,27 @@ body{
     text-align: center;
     width: 100%;
 }
+#newdiv{
+    background-color: #cb997e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 14px 16px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+
+}
+#seconddiv{
+    margin-top: 120px;
+}
 .anotherdiv h1::after{
    content: " of : flex";
 }
 div{
     border-radius: 8px;
-    background-color:#BCCEF8;
+    background-color:#ffe8d6;
     margin: 20px;
     padding: 14px 16px;
     display: flex;
@@ -30,4 +46,19 @@ img{
     height: 50vh;
     margin: auto;
     
+}
+.footer{
+    background-color: #6b705c;
+    height: 60px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 60px;
+}
+.footer p{
+    margin: 0;
+    width: 100vh;
+    
+}
+div:hover{
+    transform: scale(1.02);
 }

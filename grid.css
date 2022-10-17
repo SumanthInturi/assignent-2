@@ -1,30 +1,35 @@
 body{
-    background-color: #FF731D;
+    background-color: #F5EFE6;
+    margin: 0px;
 }
-div h1::after{
+header h1::after{
     content: " of : grid";
 }
-h1{
+#newdiv{
+    margin: 0;
+    border-radius: 0;
+    position: fixed;
     width: 100%;
     text-align: center;
+    top:0;
+}
+body #seconddiv{
+    margin-top: 130px;
 }
 .div2,.div3,.div4,.newdivv{
     border-radius: 8px;
-    background-color:#FFF7E9;
+    background-color:#AEBDCA;
     margin: 20px;
     padding: 14px 16px;
 }
 #seconddiv,#anotherdivv,#imagediv{
     border-radius: 8px;
-    background-color:#5F9DF7;
+    background-color:#AEBDCA;
     margin: 20px;
     padding: 14px 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:20px;
-    /* grid-template-columns: 400px;
-    grid-template-rows: 100px; */
-
+    grid-gap:100px;
     overflow: auto;
     
 }
@@ -34,4 +39,12 @@ img{
     height: 50vh;
     margin: auto;
 
+}
+.footer{
+    background-color: #7895B2;
+    height: 60px;
+    line-height: 60px;
+}
+div:hover{
+    transform: scale(1.02);
 }
