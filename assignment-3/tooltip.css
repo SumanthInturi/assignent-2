@@ -2,4 +2,31 @@
     color: green;
     display: inline-block;
     border-bottom: 1px dotted black;
+    margin: calc(100% / 6);
+    /* margin: 100px; */
+}
+[tooltip-position="top"]:hover::after{
+    content: attr(tooltip);
+    background-color: black;
+    color: white;
+    position: absolute;
+    border: none;
+}
+[tooltip-position="right"]:hover::after{
+    content: attr(tooltip);
+    background-color: black;
+    color: white;
+    border: none;
+}
+[tooltip-position="bottom"]:hover::after{
+    content: attr(tooltip);
+    background-color: black;
+    color: white;
+    border: none;
+}
+[tooltip-position="left"]:hover::after{
+    content: attr(tooltip);
+    background-color: black;
+    color: white;
+    border: none;
 }

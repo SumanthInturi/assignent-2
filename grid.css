@@ -2,10 +2,10 @@ body{
     background-color: #eee3d3;
     margin: 0px;
 }
-header h1::after{
+#headerdiv h1::after{
     content: " of : Grid";
 }
-#newdiv{
+#headerdiv{
     margin: 0;
     border-radius: 0;
     position: fixed;
@@ -15,7 +15,7 @@ header h1::after{
     top:0;
     background-color:#7895B2 ;
 }
-body #seconddiv{
+body #div2{
     margin-top: 130px;
     position: relative;
     z-index: -1;
@@ -27,7 +27,7 @@ body #seconddiv{
     padding: 14px 16px;
     
 }
-#seconddiv{
+#div2{
     border-radius: 8px;
     background-color:#AEBDCA;
     margin: 20px;
@@ -42,9 +42,8 @@ body #seconddiv{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
     overflow: auto;
-    
 }
-img{
+.image,#image2{
    border-radius: 8px;
     width: 100%;
     height: 50vh;
