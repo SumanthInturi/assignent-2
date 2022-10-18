@@ -1,28 +1,5 @@
 [tooltip-position="top"],[tooltip-position="right"],[tooltip-position="bottom"],[tooltip-position="left"]{
-    position: relative;
-    display: inline-block;
     color: green;
-    font-size: 30px;
+    display: inline-block;
     border-bottom: 1px dotted black;
-    margin: 100px;
-
-  }
-[tooltip-position="top"] .toptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-  }
-  
-[tooltip-position="top"]:hover::after {
-    content: "Tooltip text";
-    position: absolute;
-    width: 100%;
-    top:-40px;
-    visibility: visible;
-  }
- 
+}
