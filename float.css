@@ -1,3 +1,6 @@
+html::-webkit-scrollbar{
+    display: none;
+}
 *{
     box-sizing: border-box;
 }
@@ -14,8 +17,6 @@ body{
     padding: 14px 16px;
     position: fixed;
     background-color: #7895B2;
-
-
 }
 .div2 #image2{
     float: left;
@@ -42,7 +43,7 @@ div{
 }
 img{
    border-radius: 8px;
-    width: 33.33%;
+    width: calc(100% / 3);
     height: 50vh;
     float: left;
 }
@@ -60,7 +61,7 @@ p{
 }
 #anotherdivv p{
     float: left;
-    width: 33.33%;
+    width: calc(100% / 3);
     height: auto;
     left: 5px;
 }
