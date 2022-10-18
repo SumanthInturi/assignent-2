@@ -1,50 +1,60 @@
 body{
-    background-color: #F5EFE6;
+    background-color: #eee3d3;
     margin: 0px;
 }
 header h1::after{
-    content: " of : grid";
+    content: " of : Grid";
 }
 #newdiv{
     margin: 0;
     border-radius: 0;
     position: fixed;
     width: 100%;
+    height: 100px;
     text-align: center;
     top:0;
+    background-color:#7895B2 ;
 }
 body #seconddiv{
     margin-top: 130px;
+    position: relative;
+    z-index: -1;
 }
-.div2,.div3,.div4,.newdivv{
+.div3,.div4{
+    border-radius: 8px;
+    background-color:#AEBDCA;
+    margin: 20px;
+    padding: 14px 16px;
+    
+}
+#seconddiv{
     border-radius: 8px;
     background-color:#AEBDCA;
     margin: 20px;
     padding: 14px 16px;
 }
-#seconddiv,#anotherdivv,#imagediv{
+#anotherdivv,#imagediv{
     border-radius: 8px;
     background-color:#AEBDCA;
     margin: 20px;
     padding: 14px 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:100px;
+    gap: 0px;
     overflow: auto;
     
 }
 img{
    border-radius: 8px;
-    width: 50%;
+    width: 100%;
     height: 50vh;
-    margin: auto;
 
 }
 .footer{
-    background-color: #7895B2;
+    background-color:#7895B2;
     height: 60px;
     line-height: 60px;
 }
-div:hover{
+img:hover{
     transform: scale(1.02);
 }
