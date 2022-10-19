@@ -14,14 +14,13 @@ body{
     background-color: #7895B2;
 }
 #headerdiv .newh1::after{
-    content: " of : Float";
+    content: " Float";
 }
 div{
     border-radius: 8px;
     background-color:#AEBDCA;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 0;
     padding: 14px 16px;
     float:left;
     width: 100%;
@@ -30,20 +29,26 @@ div{
     margin-top: 120px;
 }
 .image,#image2{
-   border-radius: 8px;
+    padding: 10px;
     width: calc(100% / 3);
     height: 50vh;
     float: left;
+    border-radius:8%;
 }
 #anotherdivv .newp{
     float: left;
     width: calc(100% / 3);
     height: auto;
     left: 5px;
+    padding: 10px;
+    border-radius: 8px;
 }
 .footer{
     background-color: #7895B2;
     clear: both;
     height: 60px;
     line-height: 60px;
+}
+.image:hover,#image2:hover{
+    transform: scale(1.02);
 }

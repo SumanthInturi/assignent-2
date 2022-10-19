@@ -5,22 +5,7 @@ body{
     z-index: -10;
 }
 #headerdiv .newh1::after{
-    content: " of : Flex";
-}
-#anotherdivv{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-#image2{
-    flex-basis: calc(100% / 3);
-}
-.newp{
-    flex-basis: calc(100% / 3); 
-}
-#newdiv .newh1{
-    text-align: center;
-    width: 100%;
+    content: " Flex";
 }
 #headerdiv{
     background-color: #7895B2;
@@ -31,6 +16,9 @@ body{
     position: fixed;
     top:0px;
     z-index: 1;
+}
+#imagediv{
+    display: flex;
 }
 #div2{
     margin-top: 120px;
@@ -49,10 +37,23 @@ div{
     border-radius: 8px;
     width:calc(100% / 3) ;   
 }
+
 #imagediv .image{
-    display: flex;
+box-sizing: border-box;
    width: calc(100% / 3);
-    height: 50vh;
+   padding: 5px;
+   height: 50vh;
+   border-radius: 8px;
+}
+#anotherdivv{
+    display: flex;
+    flex-direction: row;
+}
+#anotherdivv .newp{
+    box-sizing: border-box;
+    padding: 10px;
+    flex-basis: calc(100% / 3); 
+    
 }
 .footer{
     background-color: #7895B2;
